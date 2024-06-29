@@ -1,3 +1,5 @@
+# mosh's intro to python
+
 name = input('What is your name? ')
 print("hey " + name)
 

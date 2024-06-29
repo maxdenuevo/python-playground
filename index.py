@@ -1,3 +1,6 @@
+# 4Geeks intro to python.  
+# comparison against JS
+
 print("hello world")
 nombre = "Max" # string
 age = 35 # integer
