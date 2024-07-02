@@ -16,3 +16,5 @@ course = 'Python for Beginners'
 course.upper
 print(course.find('y'))
 print('y' in course) 
+ 
+ # keep adding useful lines, get pumped. 
