@@ -56,3 +56,16 @@ while numero <= 5:
 def suma(n1, n2):
     return n1 + n2 
 print (suma(1, 2))
+
+# while rerun
+numero = 1
+
+while numero <= 5:
+    print(numero)
+    numero +=1 
+
+# funciones
+def suma(n1, n2):
+    return n1 + n2 
+print (suma(1, 2))
+
