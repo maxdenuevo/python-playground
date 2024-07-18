@@ -1,6 +1,4 @@
-/**
- * @return {Function}
- */
+
 var createHelloWorld = function() {
     
     return function(...args) {
@@ -8,15 +6,7 @@ var createHelloWorld = function() {
     }
 };
 
-/**
- * const f = createHelloWorld();
- * f(); // "Hello World"
- */
 
-/**
- * counter @param {number} n
- * @return {Function} counter
- */
 var createCounter = function(n) {
     
     return function() {
@@ -24,22 +14,18 @@ var createCounter = function(n) {
     };
 };
 
-/** 
- * const counter = createCounter(10)
- * counter() // 10
- * counter() // 11
- * counter() // 12
- */
 
-/**
- * @param {string} val
- * @return {Object}
- */
 var expect = function(val) {
     
 };
 
-/**
- * expect(5).toBe(5); // true
- * expect(5).notToBe(5); // throws "Equal"
- */
+
+var createCounter = function(init) {
+    
+};
+const counter = createCounter(0);
+counter.increment(); // 1
+counter.increment(); // 2
+counter.decrement(); // 1
+counter.reset(); // 0
+counter.reset(); // 0
