@@ -29,3 +29,17 @@ counter.increment(); // 2
 counter.decrement(); // 1
 counter.reset(); // 0
 counter.reset(); // 0
+
+var compose = function(functions) {
+    
+    return function(x) {
+        
+    }
+};
+
+var once = function(fn) {
+    
+    return function(...args){
+        
+    }
+};
